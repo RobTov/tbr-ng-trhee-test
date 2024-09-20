@@ -1,0 +1,47 @@
+.home-container {
+  background-color: #000924;
+  // background: radial-gradient(circle, #000924 86%, #fc466b 100%);
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+
+  h1 {
+    margin-left: 10rem;
+    color: aliceblue;
+    font-size: 8rem;
+  }
+}
+
+.separator {
+  min-height: 200px;
+  background-color: #000924;
+}
+
+.subheader {
+  font-size: 3rem;
+}
+
+.home-2 {
+  min-height: 100vh;
+  background-color: #000924;
+  background-image: radial-gradient(at 0% 0%, #000924 0, transparent 50%),
+    radial-gradient(at 50% 100%, #273359 0, transparent 50%);
+}
+
+.home-3 {
+  background-color: #000924;
+  background-image: radial-gradient(at 0% 100%, #000924 0, transparent 50%),
+    radial-gradient(at 50% 0%, #273359 0, transparent 50%);
+}
+
+.home-4 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: #000924;
+  background-image: radial-gradient(at 0% 100%, #100f15 0, transparent 53%),
+    radial-gradient(at 50% 150%, #722741 0, transparent 50%);
+}

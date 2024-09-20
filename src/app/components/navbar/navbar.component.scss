@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #000924;
+}
+
+.logo {
+  transition: 0.3s ease-in;
+
+  &:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+a {
+  transition: 0.3s ease-in;
+
+  &:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    text-decoration: underline;
+  }
+}
